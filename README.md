@@ -6,6 +6,8 @@ BlacklistFragment:
 
 (2注意BlacklistUtils：!CommonDataKinds.Phone.CONTENT_ITEM_TYPE.equals(mimeType)
 
+另外：WindRecentCallLogActivity、WindRecentCallLogAdapter.java、WindRecentCallLogFragment.java、WindRecentCallLogListItem.java见Dialer
+
 加载fragment可以有几种方式：
 
 (1)继承自普通的Fragment
