@@ -10,6 +10,7 @@ getFragmentManager().beginTransaction()
             .replace(R.id.blacklistActivity, listFragment, BlacklistFragment.FRAGMENT_TAG)
             //.commit();
             .commitAllowingStateLoss();
+
 (2)继承自DialogFragment
 BlacklistAddFragment extends DialogFragment
 public static final String ADD_DIALOG_TAG = "blacklist_add_fragment";
