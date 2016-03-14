@@ -4,6 +4,7 @@ MultiConferenceCallsPickerFragment因为有联系人选择个数限制，超过9
 在联系人ContactListMultiChoiceActivity中onCreate根据接收的intent来加载不同的fragment
 
 加载fragment可以有几种方式：
+
 (1)继承自普通的Fragment
 BlacklistFragment listFragment = new BlacklistFragment();
 getFragmentManager().beginTransaction()
