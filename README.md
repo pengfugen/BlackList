@@ -1,5 +1,6 @@
 # BlackList
 BlacklistFragment:
+
 (1)MultiConferenceCallsPickerFragment因为有联系人选择个数限制，超过9个会出现空指针异常，所以切换到MultiContactsPickerBaseFragment
 在联系人ContactListMultiChoiceActivity中onCreate根据接收的intent来加载不同的fragment
 
